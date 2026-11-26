@@ -11,7 +11,7 @@ import { Home, } from '@lucide/vue';
 
 </script>
 
-<template>
+<template class="bg-gray-400">
     <div>
     <nav class="flex items-center gap-6 p-6 bg-blue-950 justify-between">
         <router-link class="flex items-center justify-between text-2xl"
