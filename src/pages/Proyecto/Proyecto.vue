@@ -3,6 +3,7 @@
 
 import Navigation from '@/components/ui/Navegador/Navigation/Navigation.vue';
 import { Home } from '@lucide/vue';
+import Footer from '@/components/ui/footer/footer.vue';
 
  const menuItems = [
   { label: 'Proyecto', href: '/Proyecto'},
@@ -13,7 +14,7 @@ import { Home } from '@lucide/vue';
 </script>
 
 <template >
-    <div>
+    <div class="min-h-screen flex flex-col">
     <nav class="flex items-center gap-6 p-6 bg-blue-950 justify-between">
         <router-link class="flex items-center justify-between text-2xl"
         to="/"
@@ -24,9 +25,10 @@ import { Home } from '@lucide/vue';
         <Navigation :items="menuItems"/>
 
     </nav>   
-
-        
     </div>
+
+<Footer class="mt-auto"/>
+
 </template>
 
 <style scoped>
