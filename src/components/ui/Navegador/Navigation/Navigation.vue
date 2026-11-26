@@ -31,7 +31,7 @@ withDefaults(defineProps<props>(), {
     if (window.innerWidth <= 640) {
       videreMenu.value = false
     } else { 
-      videreMenu.value = true
+      videreMenu.value = false
     }
   }
 
